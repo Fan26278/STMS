@@ -53,5 +53,11 @@
     <Folder Include="UIModels\" />
     <Folder Include="VModels\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{5944273a-e4b5-4f74-bafc-01ae39bceb8a}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

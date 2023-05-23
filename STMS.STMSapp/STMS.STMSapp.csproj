@@ -81,14 +81,6 @@
       <Project>{5944273a-e4b5-4f74-bafc-01ae39bceb8a}</Project>
       <Name>Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\STMP.BLL\STMP.BLL.csproj">
-      <Project>{fd699f0e-9794-4ee3-a42d-73e015c3ad6c}</Project>
-      <Name>STMP.BLL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\STMP.Models\STMP.Models.csproj">
-      <Project>{187f688d-2466-4b29-b8e8-3a495b51a372}</Project>
-      <Name>STMP.Models</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
